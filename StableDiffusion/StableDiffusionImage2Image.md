@@ -46,7 +46,7 @@
 
 ### 重绘幅度
 
-数值越小越接近原图，反之则差异越大。一般设置在0.5 ~ 0.75左右。
+即“降噪强度”。数值越小越接近原图，反之则差异越大。降噪强度为0图像保持不变，降噪强度为1会完全改变图像。一般设置在0.5 ~ 0.75左右。
 
 ### 其它Tips
 
@@ -138,9 +138,8 @@
 
 # 参考资料
 
+https://civitai.com/articles/161/basic-inpainting-guide
+
 https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#inpainting
 
 https://www.bilibili.com/video/BV1Fg4y1s7df/?vd_source=15382cb163db3fd3ce2d2dd6b97e422a
-
-
-
